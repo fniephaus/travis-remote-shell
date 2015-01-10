@@ -1,0 +1,5 @@
+before_install:
+  - eval "$(cat run.sh)"
+script:
+  - echo "Keeping worker alive for 10min..."
+  - sleep 10m
