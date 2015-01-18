@@ -4,8 +4,11 @@
 Sometimes builds on [Travis-CI](https://travis-ci.org/) fail for inexplicable reasons. In cases like this, debugging the problem can be very time-consuming. Instead of having to replicate a Travis-CI worker locally, this script helps to connect to a real Travis-CI worker remotely in order to be able to execute command-line tools for debugging purposes.
 
 ## How to Use
+Obtain an authtoken from https://ngrok.com/dashboard.
+
 Create a new branch and add the following lines to your `.travis.xml`:
 ```
+env: NGROK_TOKEN=*your ngrok token*
 before_install:
   - eval "$(curl -sL https://raw.github.com/fniephaus/travis-remote-shell/master/run.sh)"
 ```

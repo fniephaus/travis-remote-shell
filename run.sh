@@ -8,5 +8,5 @@ unzip ngrok.zip
     killall -SIGINT ngrok && echo "ngrok terminated"
 } &
 {
-    ./ngrok -authtoken="eXZTxAWPSFIr3TsBQCK6" -log="stdout" -proto=tcp 8888 | grep "Tunnel established at" || true
+    ./ngrok -authtoken=$NGROK_TOKEN -log="stdout" -proto=tcp 8888 | grep "Tunnel established at" || true
 } &
