@@ -5,4 +5,4 @@ script:
 - sleep 10m
 env:
   global:
-    secure: OIdce2f6jYS1c9p5qZYKJV4l7gVnf7qb0aZ/XNqpK2RBu1DDdJsQ48AD+73aJpXE5AMjID1KrZ1rJmAJgiaDIiQk4Wu38MXJIOGAEu3piH5FmcMfztrRTunhv5LJIOOpGOWdRwH+6LMaaOQGhpRh+hTHYHcABLOmhxhfJe76n4o=
+    secure: FXQuCUcMAX7czwqyFstXB4rx4eURqiWuo19fmz4iH8MuzJv4GjcEGJy8vcFCxTqgcIlLXpoijXe+z5rC9D5dUm1yPaw2Bw7Fpu+mjGDiiz74AHJvc6xM4IDxZyOaETOb8+JFLyOrJINCDlH+t+BRGgeJJJZLaKeHFQ8faGVP6Zo=
