@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sudo apt-get install netcat
 wget -O ngrok.zip https://dl.ngrok.com/ngrok_2.0.19_linux_amd64.zip
 unzip ngrok.zip
 {
